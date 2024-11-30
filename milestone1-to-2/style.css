@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    box-sizing: border-box;  
+    color: white;  
+}
+
+/* Center body content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f4f4f4; /* Optional: light background for contrast */
+  }
+
+/* Centered container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto; /* Center with auto margins */
+    width: 80%; /* Use a percentage width for responsiveness */
+    max-width: 1200px; /* Prevent it from growing too wide */
+    background-color: white; /* Optional: add a background */
+   
+  }
+
+
+/* .section-one{
+    background-color: #1A1A1D;
+    height: auto;
+    width: 35%; 
+    min-width: 300px;
+    padding: 20px;
+    
+}
+
+.img{
+    width: 280px; 
+    height: 280px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #444; 
+    border-left: 4px solid rgb(103, 212, 122);
+    border-right: 4px solid rgb(103, 212, 122);
+    box-shadow: 
+    -6px 0 10px rgba(103, 212, 122, 0.4), 
+    6px 0 10px rgba(103, 212, 122, 0.4); 
+    margin-left: 3rem;
+    margin-top: 3rem;    
+
+ 
+} */
+
+/* Updated styles for the image section */
+.section-one {
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    background-color: #1A1A1D;
+    width: 35%;
+    min-width: 300px;
+    padding: 20px;
+    height: auto; /* Dynamically adjusts to content size */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  /* Image section wrapper */
+  .profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensure it spans the full width */
+  }
+  
+  /* Image styles */
+  .img {
+    width: 280px; /* Fixed size */
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #444;
+    border-left: 4px solid rgb(103, 212, 122);
+    border-right: 4px solid rgb(103, 212, 122);
+    box-shadow: -6px 0 10px rgba(103, 212, 122, 0.4),
+    6px 0 10px rgba(103, 212, 122, 0.4);
+    margin: 0;
+  }
+  
+
+.pro-section{
+    margin-top: 2rem;
+}
+
+.pro-section-two{
+    margin-top: 2rem;
+}
+
+.pro-section h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+    border-left: 4px solid #A64D79;
+    display: inline;
+    text-align: center;
+    line-height: 2;
+}
+
+.pro-section-two h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+    border-left: 4px solid #A64D79;
+    display: inline;
+    text-align: center;
+    line-height: 2;
+}
+
+
+
+p{
+    font-family: cursive;
+    font-size: 20px;
+    padding-left: 12px;
+}
+
+ul{
+ padding-left: 18px;
+}
+
+.pro-sec{
+margin-left: 2px;
+font-weight: 700;
+font-family: serif;
+}
+
+.p-tag{
+    margin-top: 0.45rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+
+
+.section-two{
+    background-color: #A04747;
+    width: 65%;
+    color: white;
+}
+
+.sec-two-heading{
+    font-size: 43px;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.all-heads{
+    margin-left: 13px;
+    margin-bottom: 5px;
+    background-color: #D8A25E; /* Initial background color */
+    color: white; /* Text color */
+    padding: 8px;
+    display: inline-block;
+     /* Center the text */
+    border-radius: 4px; /* Optional: rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Hover effect */
+.all-heads:hover {
+    background-color: #A64D79; /* New background color on hover */
+    color: #f5f5f5; /* Optional: change text color on hover */
+}
+
+.personal-info{
+    margin-top: 32px;
+    margin-left: 44px;
+    font-size: 24px;
+}
+
+.a-link{
+ color:skyblue;
+}
+.education{
+    font-size: 24px;
+    margin-top: 32px;
+    margin-left: 44px;  
+}
+
+.skills{
+    margin-top: 32px;
+    margin-left: 44px;  
+    font-size: 24px;
+}
+
+ul li{
+    margin-left: 40px;
+    line-height: 1.5;
+}
+
+.experience{
+    font-size: 24px;
+    margin-top: 32px;
+    margin-left: 40px;  
+}
+
+.exp-li{
+    margin-top: 4px;
+    font-size: 24px;
+}
+.btn-btn{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+}
+
+.btn{
+ background-color: #1A1A1D;
+ color: white;
+ font-size: 21px;
+ padding: 8px;
+ margin-right: 12px;
+ margin-top: 32px;
+ margin-bottom: 10px;
+ border-radius: 4px;
+ font-family: 'Courier New', Courier, monospace;
+ cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: skyblue;
+    color: black;
+    border: none;
+}
